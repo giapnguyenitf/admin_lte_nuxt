@@ -1,0 +1,8 @@
+<template>
+  <div>Icons</div>
+</template>
+<script>
+export default {
+  layout: 'Master'
+}
+</script>

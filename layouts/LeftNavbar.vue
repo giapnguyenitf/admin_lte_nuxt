@@ -92,14 +92,47 @@
           :path="'widgets'"
           :classIcon="'fa-th'"
         ></menu-item>
+        <dropdown-menu :title="'UI elements'">
+          <i slot="icon-menu" class="fa fa-edit"></i>
+          <li slot="dropdown-item">
+            <router-link to="/general">
+              <i class="fa fa-circle-o"></i> General
+            </router-link>
+          </li>
+          <li slot="dropdown-item">
+            <router-link to="/icons">
+              <i class="fa fa-circle-o"></i> Icons
+            </router-link>
+          </li>
+          <li slot="dropdown-item">
+            <router-link to="/buttons">
+              <i class="fa fa-circle-o"></i> Buttons
+            </router-link>
+          </li>
+          <li slot="dropdown-item">
+            <router-link to="/slider">
+              <i class="fa fa-circle-o"></i> Slider
+            </router-link>
+          </li>
+          <li slot="dropdown-item">
+            <router-link to="/timeline">
+              <i class="fa fa-circle-o"></i> Timeline
+            </router-link>
+          </li>
+          <li slot="dropdown-item">
+            <router-link to="/modal">
+              <i class="fa fa-circle-o"></i> Modal
+            </router-link>
+          </li>
+        </dropdown-menu>
       </ul>
     </section>
   </aside>
 </template>
 
 <script>
-import DropdownMenu from '~/components/DropdownMenu'
-import MenuItem from '~/components/MenuItem'
+import DropdownMenu from '~/components/DropdownMenu/index'
+import MenuItem from '~/components/MenuItem/index'
 
 export default {
   components: {
