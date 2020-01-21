@@ -14,7 +14,14 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic'
+      }
+    ],
     bodyAttrs: {
       class: 'hold-transition skin-blue sidebar-mini'
     }
@@ -29,7 +36,8 @@ export default {
   css: [
     '@/assets/css/admin-lte.css',
     '@/assets/css/skin-blue.css',
-    '@/node_modules/font-awesome/css/font-awesome.css'
+    '@/node_modules/font-awesome/css/font-awesome.css',
+    '@/node_modules/ionicons/css/ionicons.css'
   ],
   /*
    ** Plugins to load before mounting the App
