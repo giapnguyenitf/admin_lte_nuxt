@@ -12,7 +12,7 @@
           <box-statistic
             :value="100"
             :nameStatistic="'New Orders'"
-            :typeBox="'bg-aqua'"
+            :boxType="'bg-aqua'"
             :ionClass="'ion-bag'"
           >
           </box-statistic>
@@ -21,7 +21,7 @@
           <box-statistic
             :value="100"
             :nameStatistic="'Bounce Rate'"
-            :typeBox="'bg-green'"
+            :boxType="'bg-green'"
             :ionClass="'ion-stats-bars'"
           >
           </box-statistic>
@@ -30,7 +30,7 @@
           <box-statistic
             :value="100"
             :nameStatistic="'User Registrations'"
-            :typeBox="'bg-yellow'"
+            :boxType="'bg-yellow'"
             :ionClass="'ion-person-add'"
           >
           </box-statistic>
@@ -39,7 +39,7 @@
           <box-statistic
             :value="100"
             :nameStatistic="'Unique Visitors'"
-            :typeBox="'bg-red'"
+            :boxType="'bg-red'"
             :ionClass="'ion-pie-graph'"
           >
           </box-statistic>

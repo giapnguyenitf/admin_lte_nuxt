@@ -1,5 +1,5 @@
 <template>
-  <div :class="typeBox" class="small-box">
+  <div :class="boxType" class="small-box">
     <div class="inner">
       <h3>{{ value }}</h3>
 
@@ -26,7 +26,7 @@ export default {
       type: String,
       default: ''
     },
-    typeBox: {
+    boxType: {
       type: String,
       default: ''
     },
