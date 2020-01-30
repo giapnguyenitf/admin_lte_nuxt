@@ -1456,7 +1456,12 @@
 </template>
 
 <script>
+import Breadcrumb from '~/layouts/Breadcrumb'
+
 export default {
-  layout: 'Master'
+  layout: 'Master',
+  components: {
+    Breadcrumb
+  }
 }
 </script>

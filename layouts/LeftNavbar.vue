@@ -51,29 +51,6 @@
             </router-link>
           </li>
         </dropdown-menu>
-        <dropdown-menu :title="'Layout Options'">
-          <i slot="icon-menu" class="fa fa-files-o"></i>
-          <li slot="dropdown-item">
-            <router-link to="/top-navigation">
-              <i class="fa fa-circle-o"></i> Top navigation
-            </router-link>
-          </li>
-          <li slot="dropdown-item">
-            <router-link to="/boxed">
-              <i class="fa fa-circle-o"></i> Boxed
-            </router-link>
-          </li>
-          <li slot="dropdown-item">
-            <router-link to="/fixed">
-              <i class="fa fa-circle-o"></i> Fixed
-            </router-link>
-          </li>
-          <li slot="dropdown-item">
-            <router-link to="/collapse-sidebar">
-              <i class="fa fa-circle-o"></i> Collapsed Sidebar
-            </router-link>
-          </li>
-        </dropdown-menu>
         <dropdown-menu :title="'Forms'">
           <i slot="icon-menu" class="fa fa-edit"></i>
           <li slot="dropdown-item">
@@ -107,11 +84,6 @@
           <li slot="dropdown-item">
             <router-link to="/buttons">
               <i class="fa fa-circle-o"></i> Buttons
-            </router-link>
-          </li>
-          <li slot="dropdown-item">
-            <router-link to="/slider">
-              <i class="fa fa-circle-o"></i> Slider
             </router-link>
           </li>
           <li slot="dropdown-item">
