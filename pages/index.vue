@@ -1,5 +1,7 @@
 <template>
-  <div>dsadhasd adhsadasdhas dha</div>
+  <section class="content">
+    Home page
+  </section>
 </template>
 <script>
 export default {

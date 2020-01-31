@@ -97,6 +97,34 @@
             </router-link>
           </li>
         </dropdown-menu>
+        <dropdown-menu :title="'Examples'">
+          <i slot="icon-menu" class="fa fa-folder"></i>
+          <li slot="dropdown-item">
+            <router-link to="/profile">
+              <i class="fa fa-circle-o"></i> Profile
+            </router-link>
+          </li>
+          <li slot="dropdown-item">
+            <router-link to="/404">
+              <i class="fa fa-circle-o"></i> 404 Error
+            </router-link>
+          </li>
+          <li slot="dropdown-item">
+            <router-link to="/500">
+              <i class="fa fa-circle-o"></i> 500 Error
+            </router-link>
+          </li>
+          <li slot="dropdown-item">
+            <router-link to="/login">
+              <i class="fa fa-circle-o"></i> Login
+            </router-link>
+          </li>
+          <li slot="dropdown-item">
+            <router-link to="/register">
+              <i class="fa fa-circle-o"></i> Register
+            </router-link>
+          </li>
+        </dropdown-menu>
       </ul>
     </section>
   </aside>
